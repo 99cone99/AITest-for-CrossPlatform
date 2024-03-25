@@ -37,21 +37,21 @@ int main()
     listOfGoals.push_back(Roam);
 
     int effort = 1;
-    BaseTask* RestTask = new TaskTemplate1(effort);
+    BaseTask* RestTask = new TaskRest(effort);
     RestTask->SetEffect("Is_Hurt", false, 0);
     listOfTasks.push_back(RestTask);
 
-    BaseTask* AttackTask = new TaskTemplate2(effort);
+    BaseTask* AttackTask = new TaskAttack(effort);
     AttackTask->SetEffect("Is_Player_Alive", false, 0);
     AttackTask->SetPrecondition("Can_See_Player", true, 0);
     listOfTasks.push_back(AttackTask);
 
-    BaseTask* RunTask = new TaskTemplate3(effort);
+    BaseTask* RunTask = new TaskRun(effort);
     RunTask->SetEffect("Can_See_Player", false, 0);
     RunTask->SetPrecondition("Can_See_Player", true, 0);
     listOfTasks.push_back(RunTask);
 
-    BaseTask* SearchTask = new TaskTemplate4(effort);
+    BaseTask* SearchTask = new TaskSearch(effort);
     SearchTask->SetEffect("Can_See_Player", true, 0);
     SearchTask->SetPrecondition("Can_See_Player", false, 0);
     listOfTasks.push_back(SearchTask);

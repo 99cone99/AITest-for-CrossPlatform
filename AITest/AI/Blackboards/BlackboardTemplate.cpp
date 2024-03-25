@@ -6,7 +6,6 @@
 
 void BlackboardTemplate::UpdateBlackboard()
 {
-
 	// Here is where you'll update your blackboards world values.
 	// You can create more systems for information gathering, such as sight or hearing.
 	char input;
@@ -23,6 +22,10 @@ void BlackboardTemplate::UpdateBlackboard()
 	if (input == 'c')
 	{
 		mWorldValues["Is_Player_Alive"] = !mWorldValues["Is_Player_Alive"];
+	}
+	if ()
+	{
+
 	}
 
 	for (auto worldvalue : mWorldValues)

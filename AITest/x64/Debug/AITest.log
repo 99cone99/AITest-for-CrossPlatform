@@ -1,4 +1,3 @@
-﻿  BlackboardTemplate.cpp
-  TaskTemplate3.cpp
-  Generating Code...
-  AITest.vcxproj -> C:\Users\b019594l\source\repos\AITest\x64\Debug\AITest.exe
+﻿  AITest.cpp
+  LINK : C:\Users\b019594l\Documents\GitHub\AITest-for-CrossPlatform\x64\Debug\AITest.exe not found or not built by the last incremental link; performing full link
+  AITest.vcxproj -> C:\Users\b019594l\Documents\GitHub\AITest-for-CrossPlatform\x64\Debug\AITest.exe

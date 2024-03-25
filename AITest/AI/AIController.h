@@ -5,11 +5,7 @@
 #include "BaseTask.h"
 #include "Blackboard.h"
 #include "Blackboards/BlackboardTemplate.h"
-#include "Tasks/TaskTemplate1.h"
-#include "Tasks/TaskTemplate2.h"
-#include "Tasks/TaskTemplate3.h"
-#include "Tasks/TaskTemplate4.h"
-
+#include "Tasks/TaskTemplate.h"
 
 class AIController
 {
